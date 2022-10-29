@@ -51,3 +51,64 @@ _______________________________________________
 **TEAM MEMBER 1** | SAHAYA JEMI SELSA J 
 **TEAM MEMBER 2** | SHARRANYA R
 **TEAM MEMBER 3** | SREE BHAVANI D
+___________________________________________________
+
+**PROJECT PROGRESS**
+
+**SETTING UP APPLICATION ENVIRONMENT**
+
+- [x] Create a Flask Project
+- [x] Create IBM cloud Account
+- [x] Install IBM cloud CLI
+- [x] Docker CLI Installation
+- [x] Create an account in Sendgrid
+
+**IMPLEMENTING WEB APPLICATION**
+
+- [] Create UI to Interacte with APPlication
+- [] Create IBM DB2 and connect with python
+
+**INTEGRATING SENDGRID SERVICE**
+
+- [] Sendgrid Integration With python code
+
+**DEVELOPING A CHATBOT**
+
+- [] Building Chatbot And integrate to APP
+
+**DEPLOYMENT OF APP IN IBM CLOUD**
+
+- [] Containerize the App
+- [] Upload Image to IBM container registry
+- []Deploy in kubernetes cluster
+
+**IN THIS ACTIVITY YOU ARE EXPECTED TO DEVELOP & SUBMIT THE DEVELOPED CODE BY TESTING IT.**
+
+- [x] Ideation
+- [x] Literature suvey on the selected project % information gathering
+- [x] Prepare Empatby map  
+
+**PROJECT DESIGN PHASE – I**
+
+- [x] Proposed Solution
+- [x] Problem Solution Fit
+- [x] Solution Architecture
+
+**PROJECT DESIGN PHASE -II**
+
+- [x] Customer Journey 
+- [x] Functional Requirement
+- [x] Data Flow Diagram
+- [x] Technology Architecture
+
+**PROJECT PLANNING PHASE**
+
+- [x] Prepare Milestone & Activity List
+- [x] Sprint Devlivery Plan
+
+**PROJECT DEVELOPMENT PHASE**
+
+- [] Sprint 1
+- [] Sprint 2
+- [] Sprint 3
+- [] Sprint 4
