@@ -1,0 +1,4 @@
+download python
+install python
+install flask pip install -r requirements.txt
+run app -python app.py
