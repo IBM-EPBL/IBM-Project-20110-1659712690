@@ -1,2 +1,0 @@
-docker tag hello-world icr.io/sharanyatest/hello:s1
-docker push icr.io/sharanyatest/hello:s1

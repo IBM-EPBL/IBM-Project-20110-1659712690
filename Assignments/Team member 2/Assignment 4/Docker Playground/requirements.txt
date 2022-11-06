@@ -1,5 +1,0 @@
-python
-flask
-tqdm
-colorama
-numpy

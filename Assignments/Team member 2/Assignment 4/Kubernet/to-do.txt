@@ -1,5 +1,0 @@
-Create cluster in IBM cloud Kubernet
-Install ibm cloud CLI
-Install Kubernet CLI
-Copy the Kubernetcluser Command
-Deploy the app
