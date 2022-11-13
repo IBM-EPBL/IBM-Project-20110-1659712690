@@ -1,0 +1,4 @@
+flak
+numpy
+tqdm
+colorama
