@@ -1,0 +1,6 @@
+FROM phython
+WORKDIR /app
+COPY . .
+RUN pip install -requirements.txt
+CMD ["python", "app.py"]
+EXPOSE 5000
