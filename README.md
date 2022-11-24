@@ -80,7 +80,7 @@ ___________________________________________________
 
 - [x] Containerize the App
 - [x] Upload Image to IBM container registry
-- [x]Deploy in kubernetes cluster
+- [x] Deploy in kubernetes cluster
 
 **IN THIS ACTIVITY YOU ARE EXPECTED TO DEVELOP & SUBMIT THE DEVELOPED CODE BY TESTING IT.**
 
