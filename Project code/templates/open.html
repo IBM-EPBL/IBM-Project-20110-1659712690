@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DD - Login / Signup</title>
+    <script src="https://kit.fontawesome.com/78bf8e323a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/style.css">
+</head>
+<body>
+    <div class="navigater">
+        <ul class="nav justify-content-end navbar navbar-dark bg-none">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/home"><img id="open_navbrand" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/logo.png" alt="Logo" class="d-inline-block align-text-top"></a>
+                <li class="nav-item">
+                <a class="open-nav-link" href="/home"><img class="open_link_logo" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/compass.png" alt="Discover"> Discover</a>
+                </li>
+                <li class="nav-item">
+                <a class="open-nav-link" href="/view_jobs"><img class="open_link_logo" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/recruitment.png" alt="Jobs"> Jobs</a>
+                </li>
+                <li class="nav-item">
+                <a class="open-nav-link" href="#"><img class="open_link_logo" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/multiple-users-silhouette.png" alt="People">
+                    People</a>
+                </li>
+                <li class="nav-item">
+                <a class="open-nav-link" href="/courses"><img class="open_link_logo" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/webinar.png" alt="leaning"> Learning</a>
+                </li>
+                <li class="nav-item">
+                    <a class="open-nav-link" href="/register"><img class="open_link_logo" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/joinnow.png" alt="signup"> Join Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="open-nav-link" href="/login"><img class="open_link_logo" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/signin.png" alt="Signin"> Signin</a>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <div class="Opening"> <br>
+        <img id="open-image1" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/blah.png" alt="image">   
+        <div>
+            <p class="open_welcome">Welcome to your <br> professional community</p>
+            <div class="open-login-frame" id="open-id01">
+                <form action="/signin" class="open-loginform" method="post">
+                    <div class="open-group">
+                        <input type="text" name = "Username" placeholder="Username" required>
+                    </div> <br>
+                    <div class="open-group">
+                        <input type="password" name="Password" placeholder="Password" required>
+                    </div> <br>
+                    <div class="open-group">
+                        <input type="submit" name="signin" id="open-signin" value="Login">
+                    </div>
+                    <div class="open-foot"> 
+                        <hr>
+                        <p>Don't have an account?<a href="/register" onclick="check(this.form)"><i>Signup</i></a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> <br> <br>
+    <div class="exploring">
+        <div class="explore_cont">
+            <p>CONTENT TOPICS</p>
+            <button class="exp_btn">See All Topics</button>
+            <button class="exp_btn">Workplace</button>
+            <button class="exp_btn">Job Search</button>
+            <button class="exp_btn">Careers</button> <br>
+            <button class="exp_btn">Interviewing</button>
+            <button class="exp_btn">Salary and Compensation</button>
+            <button class="exp_btn">Internships</button>
+            <button class="exp_btn">Employee Benefits</button>   
+        </div>
+        <p><h1>Explore topics you <br> are interested in</h1></p>
+    </div><br>
+    <div class="exploring">
+        <div class="explore_cont">
+            <p>SUGGESTED SEARCHES</p>
+            <button class="exp_btn">See All Topics</button>
+            <button class="exp_btn">Engineering</button>
+            <button class="exp_btn">Finance</button>
+            <button class="exp_btn">Information Technology</button> <br>
+            <button class="exp_btn">Human Resources</button>
+            <button class="exp_btn">Arts and Design</button>
+            <button class="exp_btn">Customer service</button>
+            <button class="exp_btn">Administrative Assistant</button>   
+        </div>
+        <p><h1>Find the right job or <br> internship for you</h1></p>
+    </div><br>
+    <div class="exploring">
+        <div class="explore_cont"> <br>
+            <button class="exp_btn">Post a Job</button>   
+        </div>
+        <p><h1>Post your job for millions of people to see</h1></p>
+    </div> <br>
+    <div class="exploring">
+        <img src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/connect.jpg" alt="connection">  
+        <h1>Let the right people know you’re open to work</h1> <br>
+        <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the <br> <q style="color: rgba(0, 255, 255, 0.589);">Desired Dreams</q> community that you are looking for new job opportunities.</p><br>
+        <img src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/conv.jpg" alt="connection">  
+        <h1>Conversations today could lead to<br> opportunity tomorrow</h1> <br>
+        <p>Sending messages to people you know is a great way to strengthen <br> relationships as you take the next step in your career.</p><br>
+        <img src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/liveconv.jpg" alt="connection">  
+        <h1>Stay up to date on your industry</h1> <br>
+        <p>From live videos, to stories, to newsletters and more, LinkedIn is full of ways to <br> stay up to date on the latest discussions in your industry.</p><br>
+    </div> <br>
+    <div class="exploring">
+        <img src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/learn.jpg" alt="connection"> <br><br> 
+        <h1>Learn the skills you need to succeed</h1> <br>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Choose a topic to learn about</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Training and Education</a></li>
+              <li><a class="dropdown-item" href="#">IT Help Desk</a></li>
+              <li><a class="dropdown-item" href="#">Business Analysis and Strategy</a></li>
+              <li><a class="dropdown-item" href="#">Career Development</a></li>
+              <li><a class="dropdown-item" href="#">Leadership and Management</a></li>
+              <li><a class="dropdown-item" href="#">Mobile Development</a></li>
+              <li><a class="dropdown-item" href="#">Finance and Accounting</a></li>
+              <li><a class="dropdown-item" href="#">Marketing</a></li>
+              <li><a class="dropdown-item" href="#">Cloud Computing</a></li>
+              <li><a class="dropdown-item" href="#">Project Management</a></li>
+              <li><a class="dropdown-item" href="#">Visualization and Real-Time</a></li>
+              <li><a class="dropdown-item" href="#">Animation and Illustration</a></li>
+              <li><a class="dropdown-item" href="#">Audio and Music</a></li>
+              <li><a class="dropdown-item" href="#">AEC</a></li>
+              <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+              <li><a class="dropdown-item" href="#">Motion Graphics and VFX</a></li>
+              <li><a class="dropdown-item" href="#">Photography</a></li>
+              <li><a class="dropdown-item" href="#">Video</a></li>
+            </ul>
+        </div>
+    </div> <br>
+    <div class="bg-image">
+        <center>
+            <div class="explore_cont">
+                <h2 style="color: black;"><br><br> Join your colleagues, classmates, and friends</h2>
+                <button class="exp_btn">Get started</button>   
+            </div> 
+        </center>
+    </div> <br>
+    <footer class="footer">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+              <h2 class="footer-heading"><a href="#" class="logo"><img id="open_navbrand" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/logo.png" alt="Logo" class="d-inline-block align-text-top"></a></h2><br>
+          </div>
+            <div class=" text-center">
+              <p class="copyright">
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fas fa-heart"></i> by <a href="#">Desired Dreams</a> <br> <br>
+                Contact us at <a href="mailto:paperboat@gmail.com">desireddreams002@gmail.com</a>
+              </p>
+            </div>
+        </div>
+      </footer>
+</body>
+</html>
+
+

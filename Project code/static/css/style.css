@@ -1,0 +1,713 @@
+* body{
+    background-color: #000000;
+    border-top: none;
+    border-right: 5px;
+    border-left: 5px;
+    padding: 30px;
+}
+#logo{
+    height: 55px;
+    width: 250px;
+}
+/*---------open page---------*/
+.open_link_logo{
+    height: 25px;
+    width: 25px;
+}
+#open_navbrand{
+    height: 80px;
+    width: 250px;
+}
+.open-nav-link{
+    color: white;
+    font-family: 'comic', monospace;
+    text-decoration: none;
+}
+.open-nav-link:hover{
+    color: #00BCAD;
+}
+.open_welcome{
+    padding-top: 30px;
+    margin-left: 40px;
+    font-family: 'Berlin Sans FB';
+    font-size: 50px;
+    color: #00BCAD;
+}
+.open-login-frame{
+    margin-left: 100px;
+}
+.loginform{
+    transition: 0.25s;
+    border-radius: 20px;
+}
+.open-loginform input[type="text"],
+.open-loginform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+.open-loginform input[type="text"]:hover,
+.open-loginform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71;
+}
+
+.open-loginform input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 0px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+
+.open-loginform input[type="submit"]:hover{
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #00BCAD);
+}
+.open-foot p, a{
+    color: rgb(255, 255, 255);
+}
+.open-foot hr{
+    color: rgb(255, 255, 255);
+    width: 250px;
+}
+.open-foot a:hover{
+    color: rgb(255, 255, 255);
+    width: 300px;
+}
+.flash-msg{
+    background-color: #191919;
+    border: none;
+}
+#open-image1{
+    float: right;    
+    margin: 0 0 0 15px;
+    height: 500px;
+}
+.exploring{
+    padding: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    background-color: rgba(173, 173, 173, 0.24);
+    height: auto;
+    border-radius: 15px;
+}
+.exploring h1{
+    color: #00BCAD;
+    font-family: 'Berlin Sans FB';
+    font-weight: lighter;
+    font-size: 30px;
+}
+.exploring p{
+    color: #ffffff;
+    font-family: 'Berlin Sans FB';
+    font-weight: lighter;
+    font-size: 20px;
+}
+.explore_cont{
+    font-family: 'Berlin Sans FB';
+    color: white;
+    float: right;    
+    margin: 0 0 0 15px;
+}
+.exploring img{
+    height: 150px;
+    width: 180px;
+    border-radius: 100%;
+    float: right;    
+    margin: 0 0 0 15px;
+}
+.exp_btn{
+    border-radius: 15px;
+}
+.bg-image{
+    background-image: url('https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/feedback.jpg');
+    background-color: rgba(250, 235, 215, 0.336);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 768px;
+    border-radius: 30px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.288);
+    border-radius: 20px;
+}
+.copyright{
+    color: white;
+}
+.copyright a{
+    color: #00BCAD;
+    text-decoration: wavy;
+}
+.copyright a:hover{
+    color: burlywood;
+}
+/*-----------base page----------*/
+.navigation{
+    background-color: black;
+}
+.profile_btn{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    font-family: 'Berlin Sans FB';
+    font-size: 20px;
+}
+.profile_btn a{
+    text-decoration: none;
+    color: #00BCAD;
+}
+.profile_btn a:hover{
+    background-color: none;
+    color: rgb(3, 83, 83);
+}
+/*-------------- home page -----------*/
+.menu {
+    background-color: none;
+    float: left;
+    width: 20%;
+    color: black;
+}
+.menu a{
+    color: #00BCAD;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: black;
+}
+.home_card {
+    background-color: none;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 15px;
+}
+.home_container {
+    background-color: none;
+    padding: 2px 16px;
+}  
+.home_row{
+    color:white;
+background-color: rgb(48, 47, 47);
+border: 2px solid rgb(48, 47, 47);
+border-radius: 25px ;
+margin-left:250px ;
+margin-right:280px ;
+
+
+}
+.home_main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}  
+.home_right {
+    background-color: rgba(36, 36, 36, 0.801);
+    color: white;
+    border: 2px solid rgba(36, 36, 36, 0.801);
+    border-radius: 5px;
+    box-shadow: #191919;
+    text-decoration: none;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    margin-left: 690px;
+}  
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+.create_post button{
+    width: 100%; 
+    border-radius: 20px; 
+    border-color: aqua;
+    background-color: black;
+    color: white;
+    font-family: 'forte';
+    height:40px
+  }
+  .create_post button:hover{
+    width: 100%; 
+    border-radius: 20px; 
+    border-color: white;
+    background-color: aqua;
+    color: black;
+    font-family: 'forte';
+    height:40px
+  }
+.main_post_card{
+    background-color: black;
+}
+.main_post_card img{
+    height: 500px; width: 100%;border-radius: 20px;
+}
+.main_post_card i{
+    color: white;
+}
+/*----------signup-form---------*/
+.signup-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    border: none;
+}
+.signupform{
+    width: 600px;
+    padding: 30px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    background: #191919;
+    text-align: left;
+    transition: 0.25s;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.signupform input[type="text"],
+.signupform input[type = "email"],
+.signupform input[type="password"],
+.signupform input[type="about"],
+.signupform input[type="skills"],
+.signupform input[type="languages"],
+.signupform input[type="address"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+
+.signupform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Freestyle Script';
+}
+.signupform input[type="text"]:hover,
+.signupform input[type = "email"]:hover,
+.signupform input[type="password"]:hover,
+.signupform input[type="about"]:hover,
+.signupform input[type="skills"]:hover,
+.signupform input[type="languages"]:hover,
+.signupform input[type="address"]:hover{
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.signupform input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.signupform input[type="submit"]:hover {
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+/*----------sigin-form---------*/
+.login-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: none;
+}
+.loginform{
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    border-radius: 20px;
+}
+.loginform input[type="text"],
+.loginform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+
+.loginform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Freestyle Script;
+}
+.loginform input[type="text"]:hover,
+.loginform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.loginform input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.loginform input[type="submit"]:hover{
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+.foot p, a{
+    color: rgb(156, 156, 156);
+}
+.foot hr{
+    color: rgb(92, 91, 91);
+}
+.flash-msg{
+    background-color: #191919;
+    border: none;
+}
+/*----------signout-form---------*/
+.signout-frame{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    border: none
+}
+.signoutform{
+    width: 400px;
+    padding: 30px;
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+    top: 50px;
+    background: #191919;
+    text-align: center;
+    transition: 0.25s;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.signoutform input[type="text"],
+.signoutform input[type = "email"],
+.signoutform input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    font-family: Berlin Sans FB;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    color: rgb(255, 255, 255);
+}
+
+.signoutform h1 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Freestyle Script;
+}
+.signoutform input[type="text"]:hover,
+.signoutform input[type = "email"]:hover,
+.signoutform input[type="password"]:hover {
+    width: 300px;
+    border-color: #2ecc71
+}
+
+.signoutform input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.signoutform input[type="submit"]:hover {
+    border: 2px solid #2ecc71;
+    background: linear-gradient(to right, #2ecc71, #1565c0);
+}
+/* ----------view-jobs------------- */
+.menu {
+    background-color: none;
+    float: left;
+    width: 20%;
+    color: black;
+}
+.menu a{
+    color: #00BCAD;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: black;
+}
+.card {
+    background-color: none;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 15px;
+}
+.container {
+    background-color: none;
+    padding: 2px 16px;
+}  
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}  
+.right {
+    background-color: none;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+}  
+.right h3{
+    color: #00BCAD;
+}
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+.available_jobs h3{
+    color: white;
+}
+.view_jobs{
+    color: white;
+}
+.job_vac .job_name{
+    color: aqua;
+} 
+.job_vac ._name{
+    color: grey;
+} 
+.job_vac .address{
+    color: grey;
+} 
+.job_vac a{
+    color: blue;
+    text-decoration: none;
+} 
+/* ------------apply_jobs----------- */
+.apply_modal {
+    display: none;
+    position: fixed;
+    z-index: 8;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255,0.5);    
+    }
+    .apply_modal-content {
+    margin: 50px auto;
+    border: none;
+    width: 60%;
+  }
+  .apply_modal h2,p {
+    margin: 0 0 20px;
+    font-weight: 400;
+    color: #999;
+  }
+
+  #apply_form {
+    height: 530px;
+    width: 500px;
+    padding: 25px;
+    margin: 150px;
+    margin-top: 20px;
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+  .apply_input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1cc987;
+    background-color: black;
+    border-radius: 20px;
+    color: #00BCAD;
+  }
+  .apply_input:hover {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #1cc987;
+    background: linear-gradient(to right, #00BCAD, grey, black) ;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Berlin Sans FB';
+  }
+  .apply_contact-form button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .apply_close {
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .apply_close:hover,
+  .apply_close:focus {
+    color: rgb(8, 155, 147);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .open_link_logo{
+      height: 25px;
+      width: 25px;
+  }
+  .apply_upload-btn-wrapper {
+      position: relative;
+      overflow: hidden;
+      display: inline-block;
+  }
+  .apply_upload-btn-wrapper .apply_input[type=file] {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+  }
+  .apply_resume_btn{
+    border-radius: 20px;
+    border-color: #00BCAD;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Berlin Sans FB';
+}
+.apply_resume_btn:hover{
+    border-color: #1cc987;
+    background: linear-gradient(to right, #00BCAD, grey, black);
+    font-family: 'Berlin Sans FB';
+    color: #000000;
+    font-size: larger;
+}
+.apply_button{
+    border-radius: 20px;
+    border-color: #00BCAD;
+    background-color: black;
+    color: white;
+    font-family: 'Berlin Sans FB';
+}
+.apply_button:hover{
+    border-color: #1cc987;
+    background-color: white;
+    color: #000000;
+}
+.apply_submit{
+    border-radius: 20px;
+    border-color: #00BCAD;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Berlin Sans FB';
+    font-size: larger;
+}
+.apply_submit:hover{
+    border-color: #1cc987;
+    background: linear-gradient(to right, #00BCAD, grey, black);
+    font-family: 'Berlin Sans FB';
+    color: #000000;
+    font-size: larger;
+}
+/* ----------view-profile---------- */
+.prof_row:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.prof_column{
+    background-color:none;
+    float: left;
+    width: 250px;
+    padding: 10px;
+    height: 200px;
+}
+.prof_card{
+    background-color: black;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #00BCAD;
+    padding: 30px;
+    color: white;
+}
+.prof_link_logo{
+    height: 150px;
+    width: 150px;
+}

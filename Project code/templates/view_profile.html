@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% block title %} Profile {% endblock %}
+{% block content %}
+
+        <div class="prof_card">
+            <div class="prof_card-body">
+                <div class="prof_row">
+                    <div class="prof_column">
+                        <h5 class="prof_card-title">
+                            <img class="prof_link_logo" src="https://skilljobrecommenderapplication.s3.jp-tok.cloud-object-storage.appdomain.cloud/avatar-removebg-preview.png" alt="Avatar" class="avatar">                        
+                        </h5>
+                    </div>
+                    <div class="prof_column">
+                        <p class="prof_card-text" contentEditable="true">
+                            &emsp;RK<br> 
+                            &emsp;Education
+                       <br>&emsp;Address
+                        </p>
+                    </div>
+                    <div class="prof_column">
+                        <p class="prof_card-text"></p>
+                        &emsp;Open To&emsp;
+                            <select name="wanted" id="wanted">
+                                <option value="Working">Working</option>
+                                <option value="Hiring">Hiring</option>
+                                <option value="Internship">Internship</option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="prof_card text">
+            <div class="prof_card-body">
+                <h5 class="prof_card-title">About</h5> 
+                <p class="prof_card-text" contentEditable="true">&emsp;&emsp;Write about you here...</p>
+            </div>
+        </div>
+        <br>
+        <div class="prof_card text-right">
+            <div class="prof_card-body">
+            <h5 class="prof_card-title">Education</h5>
+            <p class="prof_card-text" contentEditable="true">&emsp;&emsp;Your education...</p>
+            </div>
+        </div>
+        <br>
+        <div class="prof_card text-right">
+            <div class="prof_card-body">
+            <h5 class="prof_card-title">Skills</h5>
+            <p class="prof_card-text" contentEditable="true">&emsp;&emsp;Your skills...</p>
+            </div>
+        </div>
+        <br>
+        <div class="prof_card text-right">
+            <div class="prof_card-body">
+            <h5 class="prof_card-title">Languages know</h5>
+            <p class="prof_card-text" contentEditable="true">&emsp;&emsp;Your languages...</p>
+            </div>
+        </div>
+        <br>
+{% endblock content %}
