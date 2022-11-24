@@ -65,22 +65,22 @@ ___________________________________________________
 
 **IMPLEMENTING WEB APPLICATION**
 
-- [ ] Create UI to Interacte with APPlication
-- [ ] Create IBM DB2 and connect with python
+- [x] Create UI to Interacte with APPlication
+- [x] Create IBM DB2 and connect with python
 
 **INTEGRATING SENDGRID SERVICE**
 
-- [ ] Sendgrid Integration With python code
+- [x] Sendgrid Integration With python code
 
 **DEVELOPING A CHATBOT**
 
-- [ ] Building Chatbot And integrate to APP
+- [x] Building Chatbot And integrate to APP
 
 **DEPLOYMENT OF APP IN IBM CLOUD**
 
-- [ ] Containerize the App
-- [ ] Upload Image to IBM container registry
-- [ ]Deploy in kubernetes cluster
+- [x] Containerize the App
+- [x] Upload Image to IBM container registry
+- [x]Deploy in kubernetes cluster
 
 **IN THIS ACTIVITY YOU ARE EXPECTED TO DEVELOP & SUBMIT THE DEVELOPED CODE BY TESTING IT.**
 
@@ -108,7 +108,7 @@ ___________________________________________________
 
 **PROJECT DEVELOPMENT PHASE**
 
-- [ ] Sprint 1
-- [ ] Sprint 2
-- [ ] Sprint 3
-- [ ] Sprint 4
+- [x] Sprint 1
+- [x] Sprint 2
+- [x] Sprint 3
+- [x] Sprint 4
